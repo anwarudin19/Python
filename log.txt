@@ -1,0 +1,115 @@
+2023-06-14 10:37:35,525 - INFO - Memproses kecocokan untuk nama test dan sidmet 1.1 0.9
+2023-06-14 10:38:19,827 - INFO - Memproses kecocokan untuk nama test dan sidmet 1.1 0.9
+2023-06-14 10:38:42,566 - INFO - Memproses kecocokan untuk nama test dan sidmet 1.1 0.9
+2023-06-14 10:38:51,576 - INFO - Memproses kecocokan untuk nama test11 dan sidmet 1.1 0.9
+2023-06-14 10:38:54,915 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:39:51,653 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:40:11,259 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:42:08,723 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:47:37,054 - INFO - Memproses kecocokan untuk nama yt dan t 1.1 0.9
+2023-06-14 10:47:37,086 - INFO - Memproses kecocokan untuk nama yt dan tyu 1.1 0.9
+2023-06-14 10:47:37,257 - INFO - Memproses kecocokan untuk nama yt dan tyut 1.1 0.9
+2023-06-14 10:47:37,257 - INFO - Memproses kecocokan untuk nama yt dan ty 1.1 0.9
+2023-06-14 10:52:48,333 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:53:51,010 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:54:35,060 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:55:01,852 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:55:12,253 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:55:26,186 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:55:40,640 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:56:31,909 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:57:06,307 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:57:59,448 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:58:13,099 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:59:14,256 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:59:18,565 - INFO - Memproses kecocokan untuk nama test11 dan dasad 1.1 0.9
+2023-06-14 10:59:25,891 - INFO - Memproses kecocokan untuk nama 213123 dan dasad 1.1 0.9
+2023-06-14 11:00:38,719 - INFO - Memproses kecocokan untuk nama yuytuy dan yu 1.1 0.9
+2023-06-14 11:00:38,792 - INFO - Memproses kecocokan untuk nama yuytuy dan y 1.1 0.9
+2023-06-14 11:00:38,867 - INFO - Memproses kecocokan untuk nama yuytuy dan yuu 1.1 0.9
+2023-06-14 11:00:38,964 - INFO - Memproses kecocokan untuk nama yuytuy dan yuuu 1.1 0.9
+2023-06-14 11:00:39,106 - INFO - Memproses kecocokan untuk nama yuytuy dan yuuuy 1.1 0.9
+2023-06-14 11:02:17,647 - INFO - Memproses kecocokan untuk nama alfian dan t 1.1 0.9
+2023-06-14 11:02:17,906 - INFO - Memproses kecocokan untuk nama alfian dan tr 1.1 0.9
+2023-06-14 11:02:17,962 - INFO - Memproses kecocokan untuk nama alfian dan tri 1.1 0.9
+2023-06-14 11:02:18,172 - INFO - Memproses kecocokan untuk nama alfian dan triu 1.1 0.9
+2023-06-14 11:02:18,513 - INFO - Memproses kecocokan untuk nama alfian dan triut 1.1 0.9
+2023-06-14 11:02:24,943 - INFO - Memproses kecocokan untuk nama alfian dan t 1.1 0.9
+2023-06-14 11:02:25,204 - INFO - Memproses kecocokan untuk nama alfian dan tr 1.1 0.9
+2023-06-14 11:02:25,680 - INFO - Memproses kecocokan untuk nama alfian dan tri 1.1 0.9
+2023-06-14 11:02:25,762 - INFO - Memproses kecocokan untuk nama alfian dan tri  1.1 0.9
+2023-06-14 11:02:25,907 - INFO - Memproses kecocokan untuk nama alfian dan tri y 1.1 0.9
+2023-06-14 11:02:26,497 - INFO - Memproses kecocokan untuk nama alfian dan tri  1.1 0.9
+2023-06-14 11:02:26,524 - INFO - Memproses kecocokan untuk nama alfian dan tri u 1.1 0.9
+2023-06-14 11:02:27,172 - INFO - Memproses kecocokan untuk nama alfian dan tri ut 1.1 0.9
+2023-06-14 11:02:27,571 - INFO - Memproses kecocokan untuk nama alfian dan tri uta 1.1 0.9
+2023-06-14 11:02:27,675 - INFO - Memproses kecocokan untuk nama alfian dan tri utam 1.1 0.9
+2023-06-14 11:02:27,841 - INFO - Memproses kecocokan untuk nama alfian dan tri utami 1.1 0.9
+2023-06-14 11:16:11,293 - INFO - Memproses kecocokan untuk nama alfian dan tri j 1.1 0.9
+2023-06-14 11:16:11,474 - INFO - Memproses kecocokan untuk nama alfian dan tri js 1.1 0.9
+2023-06-14 11:16:11,489 - INFO - Memproses kecocokan untuk nama alfian dan tri jsa 1.1 0.9
+2023-06-14 11:16:11,651 - INFO - Memproses kecocokan untuk nama alfian dan tri jsaj 1.1 0.9
+2023-06-14 11:16:11,651 - INFO - Memproses kecocokan untuk nama alfian dan tri jsajs 1.1 0.9
+2023-06-14 11:16:11,719 - INFO - Memproses kecocokan untuk nama alfian dan tri jsajsa 1.1 0.9
+2023-06-14 11:16:11,887 - INFO - Memproses kecocokan untuk nama alfian dan tri jsajsah 1.1 0.9
+2023-06-14 11:29:07,491 - INFO - Memproses kecocokan untuk nama umam dan o 1.1 0.9
+2023-06-14 11:29:07,799 - INFO - Memproses kecocokan untuk nama umam dan ol 1.1 0.9
+2023-06-14 11:29:08,218 - INFO - Memproses kecocokan untuk nama umam dan olg 1.1 0.9
+2023-06-14 11:29:08,386 - INFO - Memproses kecocokan untuk nama umam dan olga 1.1 0.9
+2023-06-14 11:36:45,989 - INFO - Memproses kecocokan untuk nama irvin dan j 1.1 0.9
+2023-06-14 11:36:47,515 - INFO - Memproses kecocokan untuk nama irvin dan ju 1.1 0.9
+2023-06-14 11:36:47,673 - INFO - Memproses kecocokan untuk nama irvin dan jun 1.1 0.9
+2023-06-14 11:36:47,820 - INFO - Memproses kecocokan untuk nama irvin dan juni 1.1 0.9
+2023-06-14 11:42:18,181 - INFO - Memproses kecocokan untuk nama irvin dan d 1.1 0.9
+2023-06-14 11:42:19,099 - INFO - Memproses kecocokan untuk nama irvin dan de 1.1 0.9
+2023-06-14 11:42:19,500 - INFO - Memproses kecocokan untuk nama irvin dan den 1.1 0.9
+2023-06-14 11:42:19,602 - INFO - Memproses kecocokan untuk nama irvin dan deni 1.1 0.9
+2023-06-14 11:42:19,675 - INFO - Memproses kecocokan untuk nama irvin dan denia 1.1 0.9
+2023-06-14 11:42:19,880 - INFO - Memproses kecocokan untuk nama irvin dan deniar 1.1 0.9
+2023-06-14 11:42:36,132 - INFO - Memproses kecocokan untuk nama irvin dan deniar  1.1 0.9
+2023-06-14 11:42:36,237 - INFO - Memproses kecocokan untuk nama irvin dan deniar s 1.1 0.9
+2023-06-14 11:42:36,366 - INFO - Memproses kecocokan untuk nama irvin dan deniar sa 1.1 0.9
+2023-06-14 11:42:39,624 - INFO - Memproses kecocokan untuk nama irvin dan deniar sas 1.1 0.9
+2023-06-14 11:42:39,931 - INFO - Memproses kecocokan untuk nama irvin dan deniar sasd 1.1 0.9
+2023-06-14 11:42:40,125 - INFO - Memproses kecocokan untuk nama irvin dan deniar sasda 1.1 0.9
+2023-06-14 11:42:40,214 - INFO - Memproses kecocokan untuk nama irvin dan deniar sasdas 1.1 0.9
+2023-06-14 11:50:30,510 - INFO - Memproses kecocokan untuk nama umam dan v 1.1 0.9
+2023-06-14 11:50:30,898 - INFO - Memproses kecocokan untuk nama umam dan vil 1.1 0.9
+2023-06-14 11:50:31,040 - INFO - Memproses kecocokan untuk nama umam dan vi 1.1 0.9
+2023-06-14 11:50:31,192 - INFO - Memproses kecocokan untuk nama umam dan vily 1.1 0.9
+2023-06-14 11:50:35,416 - INFO - Memproses kecocokan untuk nama umam dan vily 1.1 0.9
+2023-06-14 11:50:43,967 - INFO - Memproses kecocokan untuk nama umam dan s 1.1 0.9
+2023-06-14 11:50:45,909 - INFO - Memproses kecocokan untuk nama umam dan s 1.1 0.9
+2023-06-14 11:50:46,065 - INFO - Memproses kecocokan untuk nama umam dan sd 1.1 0.9
+2023-06-14 11:50:46,144 - INFO - Memproses kecocokan untuk nama umam dan sda 1.1 0.9
+2023-06-14 11:50:46,282 - INFO - Memproses kecocokan untuk nama umam dan sdas 1.1 0.9
+2023-06-14 11:50:46,323 - INFO - Memproses kecocokan untuk nama umam dan sdasd 1.1 0.9
+2023-06-14 11:50:46,507 - INFO - Memproses kecocokan untuk nama umam dan sdasda 1.1 0.9
+2023-06-14 11:50:46,662 - INFO - Memproses kecocokan untuk nama umam dan sdasdas 1.1 0.9
+2023-06-14 11:50:46,741 - INFO - Memproses kecocokan untuk nama umam dan sdasdasd 1.1 0.9
+2023-06-14 11:50:46,774 - INFO - Memproses kecocokan untuk nama umam dan sdasdasda 1.1 0.9
+2023-06-14 11:50:46,894 - INFO - Memproses kecocokan untuk nama umam dan sdasdasdas 1.1 0.9
+2023-06-14 11:50:46,958 - INFO - Memproses kecocokan untuk nama umam dan sdasdasdasd 1.1 0.9
+2023-06-14 11:52:03,989 - INFO - Memproses kecocokan untuk nama umam dan tri 1.1 0.9
+2023-06-14 14:36:16,420 - INFO - Memproses kecocokan untuk nama uytyt dan ytyut 1.1 0.9
+2023-06-14 14:37:00,630 - INFO - Memproses kecocokan untuk nama diana dan mardiana 1.1 0.9
+2023-06-14 14:37:27,464 - INFO - Memproses kecocokan untuk nama samasr dan mardiana 1.1 0.9
+2023-06-14 14:37:35,919 - INFO - Memproses kecocokan untuk nama reset dan mardiana 1.1 0.9
+2023-06-14 14:39:27,882 - INFO - Memproses kecocokan untuk nama resetw dan mardiana 1.1 0.9
+2023-06-14 14:41:35,279 - INFO - Memproses kecocokan untuk nama qwqwq dan yuyu 1.1 0.9
+2023-06-14 14:41:59,324 - INFO - Memproses kecocokan untuk nama qwqwq dan yuyusdas 1.1 0.9
+2023-06-14 14:42:03,974 - INFO - Memproses kecocokan untuk nama sdsadas dan yuyusdas 1.1 0.9
+2023-06-14 14:46:05,833 - INFO - Memproses kecocokan untuk nama ternay dan yrt 1.1 0.9
+2023-06-14 14:46:56,860 - INFO - Memproses kecocokan untuk nama aan dan jamet 1.1 0.9
+2023-06-14 14:48:06,409 - INFO - Memproses kecocokan untuk nama sads dan ygyg 1.1 0.9
+2023-06-14 14:48:36,042 - INFO - Memproses kecocokan untuk nama sadad dan daq 1.1 0.9
+2023-06-14 14:54:14,664 - INFO - Memproses kecocokan untuk nama uyuy dan iuyiuy 1.1 0.9
+2023-06-14 14:54:29,410 - INFO - Memproses kecocokan untuk nama dandi dan malaj 1.1 0.9
+2023-06-14 14:54:33,856 - INFO - Memproses kecocokan untuk nama shfdsh dan malaj 1.1 0.9
+2023-06-14 14:54:40,033 - INFO - Memproses kecocokan untuk nama ihdsihfidhsfihdsh dan malaj 1.1 0.9
+2023-06-14 14:54:44,581 - INFO - Memproses kecocokan untuk nama aan dan anwar 1.1 0.9
+2023-06-14 14:56:03,716 - INFO - Memproses kecocokan untuk nama test dan adalah 1.1 0.9
+2023-06-14 14:56:10,811 - INFO - Memproses kecocokan untuk nama sndksjdks dan skdjfksjd 1.1 0.9
+2023-06-14 14:57:21,600 - INFO - Memproses kecocokan untuk nama alfian dan khoirul umam 1.1 0.9
+2023-06-14 14:57:51,209 - INFO - Memproses kecocokan untuk nama sandra dan dewi 1.1 0.9
+2023-06-14 15:00:56,606 - INFO - Memproses kecocokan untuk nama anwarudin dan devi annisa 1.1 0.9

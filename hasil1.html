@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Kecocokan Nama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Data Kecocokan Nama</h1>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Pasangan</th>
+                <th>Tingkat Kecocokan</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            // Mendapatkan data dan memperbarui tabel
+            function getDataAndRefreshTable() {
+                $.ajax({
+                    url: 'http://localhost:5000/kecocokan_nama', // Ganti dengan URL API Anda
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(new_data) {
+                        data = new_data["data"]
+                        updateTable(data);
+                    },
+                    error: function() {
+                        console.log('Gagal memuat data.');
+                    }
+                });
+            }
+
+            // Memperbarui tabel dengan data terbaru
+            function updateTable(data) {
+                var tableBody = $('#data-table tbody');
+                tableBody.empty();
+
+                for (var i = 0; i < data.length; i++) {
+                    var row = '<tr>';
+                    row += '<td>' + data[i].nama1 + '</td>';
+                    row += '<td>' + data[i].nama2 + '</td>';
+                    row += '<td>' + data[i].similarity + '</td>';
+                    row += '</tr>';
+                    tableBody.append(row);
+                }
+            }
+
+            // Memperbarui tabel setiap 1 detik
+            setInterval(function() {
+                getDataAndRefreshTable();
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

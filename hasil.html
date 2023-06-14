@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tampilan Data JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #data-container {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li span {
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Tampilan Data JSON</h1>
+    <div id="data-container"></div>
+
+    <script>
+        $(document).ready(function() {
+            // Membuat permintaan GET ke API
+            $.ajax({
+                url: 'http://localhost:5000/kecocokan_nama', // Ganti dengan URL API Anda
+                type: 'GET',
+                dataType: 'json',
+                success: function(new_data) {
+                    data = new_data["data"]
+                    // Memproses data yang diterima
+                    var output = '<ul>';
+                    for (var i = 0; i < data.length; i++) {
+                        output += '<li>Nama Cowok: ' + data[i].nama1 + '</li>';
+                        output += '<li>Nama Cewek: ' + data[i].nama2 + '</li>';
+                        output += '<li>Tingkat Kecocokan: ' + data[i].similarity + '</li>';
+                        output += '<br>';
+                    }
+                    output += '</ul>';
+
+                    // Menampilkan data ke dalam elemen HTML
+                    $('#data-container').html(output);
+                },
+                error: function() {
+                    // Menangani kesalahan jika permintaan gagal
+                    $('#data-container').html('<p>Gagal memuat data.</p>');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

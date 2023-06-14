@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kecocokan Nama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-submit {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kecocokan Nama</h1>
+    <div class="container">
+        <div class="input-group">
+            <label for="nama1">Nama Cowok:</label>
+            <input type="text" id="nama1" placeholder="Masukkan Nama Cowok">
+        </div>
+        <div class="input-group">
+            <label for="nama2">Nama Cewek:</label>
+            <input type="text" id="nama2" placeholder="Masukkan Nama Cewek">
+        </div>
+        <button class="btn-submit" onclick="callAPI()">Cek Kecocokan</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        function callAPI() {
+            var nama1 = document.getElementById("nama1").value;
+            var nama2 = document.getElementById("nama2").value;
+            
+            var data = {
+                nama1: nama1,
+                nama2: nama2
+            };
+            
+            fetch("http://localhost:5000/kecocokan_nama", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                var similarity = data.similarity;
+                document.getElementById("result").textContent ="Persentase Kecocokan: " + similarity ;
+            })
+            .catch(error => {
+                console.log("Error:", error);
+            });
+
+            resetInput();
+           
+        }
+
+        function resetInput(){
+            var input1=document.getElementById('nama1');
+            var input2=document.getElementById('nama2');
+            input1.value=''
+            input2.value=''
+            input1.focus();
+
+        }
+        
+// Mengirim permintaan API ketika input nama kedua berubah
+   // document.getElementById("nama2").addEventListener("input", callAPI);
+   //document.addEventListener('visibilitychange', function(callAPI) ; -->
+   //document.getElementById("nama2").addEventListener("visibilitychange",callAPI);
+    </script>
+</body>
+</html>
