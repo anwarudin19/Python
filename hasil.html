@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tampilan Data JSON</title>
+    <title>Data Kecocokan Nama</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,59 +14,74 @@
             color: #333;
         }
 
-        #data-container {
-            background-color: #fff;
-            border-radius: 5px;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        table {
+            border-collapse: collapse;
+            width: 100%;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
         }
 
-        li {
-            margin-bottom: 10px;
-        }
-
-        li span {
+        th {
+            background-color: #f2f2f2;
             font-weight: bold;
         }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1>Tampilan Data JSON</h1>
-    <div id="data-container"></div>
+    <h1>Data Kecocokan Nama</h1>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Pasangan</th>
+                <th>Tingkat Kecocokan</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
     <script>
         $(document).ready(function() {
-            // Membuat permintaan GET ke API
-            $.ajax({
-                url: 'http://localhost:5000/kecocokan_nama', // Ganti dengan URL API Anda
-                type: 'GET',
-                dataType: 'json',
-                success: function(new_data) {
-                    data = new_data["data"]
-                    // Memproses data yang diterima
-                    var output = '<ul>';
-                    for (var i = 0; i < data.length; i++) {
-                        output += '<li>Nama Cowok: ' + data[i].nama1 + '</li>';
-                        output += '<li>Nama Cewek: ' + data[i].nama2 + '</li>';
-                        output += '<li>Tingkat Kecocokan: ' + data[i].similarity + '</li>';
-                        output += '<br>';
+            // Mendapatkan data dan memperbarui tabel
+            function getDataAndRefreshTable() {
+                $.ajax({
+                    url: 'http://localhost:5000/kecocokan_nama', // Ganti dengan URL API Anda
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(new_data) {
+                        data = new_data["data"]
+                        updateTable(data);
+                    },
+                    error: function() {
+                        console.log('Gagal memuat data.');
                     }
-                    output += '</ul>';
+                });
+            }
 
-                    // Menampilkan data ke dalam elemen HTML
-                    $('#data-container').html(output);
-                },
-                error: function() {
-                    // Menangani kesalahan jika permintaan gagal
-                    $('#data-container').html('<p>Gagal memuat data.</p>');
+            // Memperbarui tabel dengan data terbaru
+            function updateTable(data) {
+                var tableBody = $('#data-table tbody');
+                tableBody.empty();
+
+                for (var i = 0; i < data.length; i++) {
+                    var row = '<tr>';
+                    row += '<td>' + data[i].nama1 + '</td>';
+                    row += '<td>' + data[i].nama2 + '</td>';
+                    row += '<td>' + data[i].similarity + '</td>';
+                    row += '</tr>';
+                    tableBody.append(row);
                 }
-            });
+            }
+
+            // Memperbarui tabel setiap 1 detik
+            setInterval(function() {
+                getDataAndRefreshTable();
+            }, 5000);
         });
     </script>
 </body>
